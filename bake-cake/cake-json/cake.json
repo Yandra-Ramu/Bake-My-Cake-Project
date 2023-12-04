@@ -1,0 +1,147 @@
+{
+    "menu":[
+        {
+            "id":1,
+            "name": "Berries Summer Cupcakes",
+            "image": "/assets/images/Berries Summer Cupcakes.jpg",
+            "price":200,
+            "category":"Cupcakes"
+        },
+        {
+            "id":2,
+            "name": "Brownies Different Flavor",
+            "image": "/assets/images/Brownies Different Flavor.jpg",
+            "price":150,
+            "category":"Brownies"
+        },
+        {
+            "id":3,
+            "name": "Butter Cookies",
+            "image": "/assets/images/Butter Cookies.jpg",
+            "price":100,
+            "category":"Butter Cokies"
+        },
+        {
+            "id":4,
+            "name": "Cherry jelly Cheesecake",
+            "image": "/assets/images/Cherry jelly Cheesecake.jpg",
+            "price":100,
+            "category":"Cherry jelly Cheesecake"
+        },
+        {
+            "id":5,
+            "name": "Chocolate Blueberries Cake",
+            "image": "/assets/images/Chocolate Blueberries Cake.jpg",
+            "price":100,
+            "category":"Chocolate Blueberries Cake"
+        },
+        {
+            "id":6,
+            "name": "Chocolate Bonbons",
+            "image": "/assets/images/Chocolate Bonbons.jpg",
+            "price":130,
+            "category":"Chocolate Bonbons"
+        },
+        {
+            "id":7,
+            "name": "Chocolate Cookies",
+            "image": "/assets/images/Chocolate Cookies.jpg",
+            "price":100,
+            "category":"Chocolate Cookies"   
+        },
+        {
+            "id":8,
+            "name": "Chocolate Cupcake",
+            "image": "/assets/images/Chocolate Cupcake.jpg",
+            "price":170,
+            "category":"Chocolate CupCake"
+        },
+        {
+            "id":9,
+            "name": "Chocolate Summer Berries",
+            "image": "/assets/images/Chocolate Summer Berries.jpg",
+            "price":200,
+            "category":"Chocolate Summer Berries"
+        },
+        {
+            "id":10,
+            "name": "Classic Cheesecake",
+            "image": "/assets/images/Classic Cheesecake.jpg",
+            "price":250,
+            "category":"Classic Cheesecake"
+        },
+        {
+            "id":11,
+            "name": "Chocolate Blueberries Cake",
+            "image": "/assets/images/Chocolate Blueberries Cake.jpg",
+            "price":100,
+            "category":"Chocolate Blueberries Cake"
+        },
+        {
+            "id":12,
+            "name": "Cookies Cream Cake",
+            "image": "/assets/images/Cookies Cream Cake.jpg",
+            "price":180,
+            "category":"Cookies Cream Cake"
+        },
+        {
+            "id":13,
+            "name": "Chocolate Blueberries Cake",
+            "image": "/assets/images/Chocolate Blueberries Cake.jpg",
+            "price":100,
+            "category":"Chocolate Blueberries Cake"
+        },
+        {
+            "id":14,
+            "name": "Easter Cupcakes",
+            "image": "/assets/images/Easter Cupcakes.jpg",
+            "price":100,
+            "category":"Easter Cupcakes"
+        },
+        {
+            "id":15,
+            "name": "Fruit Cake",
+            "image": "/assets/images/Fruit Cake.jpg",
+            "price":140,
+            "category":"Fruit Cake"   
+        },
+        {
+            "id":16,
+            "name": "Isometric chocolate brownies",
+            "image": "/assets/images/Isometric chocolate brownies.jpg",
+            "price":280,
+            "category":"Isometric chocolate brownies"  
+        },
+        {
+            
+            "id":17,
+            "name": "Monster Theme Cake",
+            "image": "/assets/images/Monster Theme Cake.jpg",
+            "price":280,
+            "category":"Monster Theme Cake"
+        },
+        {
+            
+            "id":18,
+            "name": "Muffin Devil Horns",
+            "image": "/assets/images/Muffin Devil Horns.jpg",
+            "price":280,
+            "category":"Muffin Devil Horns"
+        },
+        {
+            "id":19,
+            "name": "Muffin Ghost",
+            "image": "/assets/images/Muffin Ghost.jpg",
+            "price":280,
+            "category":"Muffin Ghost"
+        },
+        {
+            "id":20,
+            "name": "Pumpkin Spice Cupcakes",
+            "image": "/assets/images/Pumpkin Spice Cupcakes.jpg",
+            "price":280,
+            "category":"Pumpkin Spice Cupcakes"
+        }
+
+    ]
+}
