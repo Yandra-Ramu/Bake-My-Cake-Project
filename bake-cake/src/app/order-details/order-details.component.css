@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+}
+.menu{
+    width: 50%;
+}
+.form{
+    width:50%;
+    padding: 65px;
+}
+
+img{
+    width:80%;
+    /* height:60%; */
+}
+
+.form-text{
+    height: 40px;
+}
+
+.input-field{
+    display: grid;
+    width: 55%;
+    padding: 5px;
+}
+.error-msg{
+    color: red;
+}
+
+button{
+    padding: 10px;
+    background-color: grey;
+
+}

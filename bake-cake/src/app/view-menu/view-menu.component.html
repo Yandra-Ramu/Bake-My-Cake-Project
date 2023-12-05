@@ -1,0 +1,18 @@
+<div>
+    <app-search (onSearchEvent)="onSearch($event)"></app-search>
+    
+    <div class="menu">
+        <div class="card" *ngFor="let menu of menuDetails">     
+        <a [routerLink]="['/orderDetails',menu.id]" style="text-decoration: none;">
+            <img src="{{menu.image}}">
+            <h3>{{menu?.category}}</h3>
+            <h4>{{menu?.name}}</h4>
+            <span><p>&#8377;.{{menu?.price}}</p>
+            <mat-icon>shopping_cart</mat-icon></span>
+        </a>
+               
+        </div>
+    </div>
+  
+</div>
+

@@ -1,147 +1,301 @@
 {
-    "menu":[
-        {
-            "id":1,
-            "name": "Berries Summer Cupcakes",
-            "image": "/assets/images/Berries Summer Cupcakes.jpg",
-            "price":200,
-            "category":"Cupcakes"
-        },
-        {
-            "id":2,
-            "name": "Brownies Different Flavor",
-            "image": "/assets/images/Brownies Different Flavor.jpg",
-            "price":150,
-            "category":"Brownies"
-        },
-        {
-            "id":3,
-            "name": "Butter Cookies",
-            "image": "/assets/images/Butter Cookies.jpg",
-            "price":100,
-            "category":"Butter Cokies"
-        },
-        {
-            "id":4,
-            "name": "Cherry jelly Cheesecake",
-            "image": "/assets/images/Cherry jelly Cheesecake.jpg",
-            "price":100,
-            "category":"Cherry jelly Cheesecake"
-        },
-        {
-            "id":5,
-            "name": "Chocolate Blueberries Cake",
-            "image": "/assets/images/Chocolate Blueberries Cake.jpg",
-            "price":100,
-            "category":"Chocolate Blueberries Cake"
-        },
-        {
-            "id":6,
-            "name": "Chocolate Bonbons",
-            "image": "/assets/images/Chocolate Bonbons.jpg",
-            "price":130,
-            "category":"Chocolate Bonbons"
-        },
-        {
-            "id":7,
-            "name": "Chocolate Cookies",
-            "image": "/assets/images/Chocolate Cookies.jpg",
-            "price":100,
-            "category":"Chocolate Cookies"   
-        },
-        {
-            "id":8,
-            "name": "Chocolate Cupcake",
-            "image": "/assets/images/Chocolate Cupcake.jpg",
-            "price":170,
-            "category":"Chocolate CupCake"
-        },
-        {
-            "id":9,
-            "name": "Chocolate Summer Berries",
-            "image": "/assets/images/Chocolate Summer Berries.jpg",
-            "price":200,
-            "category":"Chocolate Summer Berries"
-        },
-        {
-            "id":10,
-            "name": "Classic Cheesecake",
-            "image": "/assets/images/Classic Cheesecake.jpg",
-            "price":250,
-            "category":"Classic Cheesecake"
-        },
-        {
-            "id":11,
-            "name": "Chocolate Blueberries Cake",
-            "image": "/assets/images/Chocolate Blueberries Cake.jpg",
-            "price":100,
-            "category":"Chocolate Blueberries Cake"
-        },
-        {
-            "id":12,
-            "name": "Cookies Cream Cake",
-            "image": "/assets/images/Cookies Cream Cake.jpg",
-            "price":180,
-            "category":"Cookies Cream Cake"
-        },
-        {
-            "id":13,
-            "name": "Chocolate Blueberries Cake",
-            "image": "/assets/images/Chocolate Blueberries Cake.jpg",
-            "price":100,
-            "category":"Chocolate Blueberries Cake"
-        },
-        {
-            "id":14,
-            "name": "Easter Cupcakes",
-            "image": "/assets/images/Easter Cupcakes.jpg",
-            "price":100,
-            "category":"Easter Cupcakes"
-        },
-        {
-            "id":15,
-            "name": "Fruit Cake",
-            "image": "/assets/images/Fruit Cake.jpg",
-            "price":140,
-            "category":"Fruit Cake"   
-        },
-        {
-            "id":16,
-            "name": "Isometric chocolate brownies",
-            "image": "/assets/images/Isometric chocolate brownies.jpg",
-            "price":280,
-            "category":"Isometric chocolate brownies"  
-        },
-        {
-            
-            "id":17,
-            "name": "Monster Theme Cake",
-            "image": "/assets/images/Monster Theme Cake.jpg",
-            "price":280,
-            "category":"Monster Theme Cake"
-        },
-        {
-            
-            "id":18,
-            "name": "Muffin Devil Horns",
-            "image": "/assets/images/Muffin Devil Horns.jpg",
-            "price":280,
-            "category":"Muffin Devil Horns"
-        },
-        {
-            "id":19,
-            "name": "Muffin Ghost",
-            "image": "/assets/images/Muffin Ghost.jpg",
-            "price":280,
-            "category":"Muffin Ghost"
-        },
-        {
-            "id":20,
-            "name": "Pumpkin Spice Cupcakes",
-            "image": "/assets/images/Pumpkin Spice Cupcakes.jpg",
-            "price":280,
-            "category":"Pumpkin Spice Cupcakes"
-        }
-
-    ]
+  "menu": [
+    {
+      "id": 1,
+      "name": "Berries Summer Cupcakes",
+      "image": "/assets/Berries Summer Cupcakes.jpg",
+      "price": 350,
+      "category": "Cupcake",
+      "quantity": "(12 pieces)",
+      "unit": "boxes"
+    },
+    {
+      "id": 2,
+      "name": "Brownies Different Flavor",
+      "image": "/assets/Brownies Different Flavor.jpg",
+      "price": 300,
+      "category": "Brownie",
+      "quantity": "pack of 6",
+      "unit": "boxes"
+    },
+    {
+      "id": 3,
+      "name": "Butter Cookies",
+      "image": "/assets/Butter Cookies.jpg",
+      "price": 250,
+      "category": "Cookies",
+      "quantity": "/10 pieces",
+      "unit": "boxes"
+    },
+    {
+      "id": 4,
+      "name": "Cherry Jelly Cheesecake",
+      "image": "/assets/Cherry Jelly Cheesecake.jpg",
+      "price": 900,
+      "category": "Cake",
+      "quantity": "per kg",
+      "unit": "Kg's"
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Blueberries Cake",
+      "image": "/assets/Chocolate Blueberries Cake.jpg",
+      "price": 1500,
+      "category": "Cake",
+      "quantity": "per kg",
+      "unit": "Kg's"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Bonbons",
+      "image": "/assets/Chocolate Bonbons.jpg",
+      "price": 650,
+      "category": "Chocolate",
+      "quantity": "pack of 24",
+      "unit": "boxes"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Cookies",
+      "image": "/assets/Chocolate Cookies.jpg",
+      "price": 400,
+      "category": "Cookies",
+      "quantity": "/8 pieces",
+      "unit": "boxes"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Cupcake",
+      "image": "/assets/Chocolate Cupcake.jpg",
+      "price": 200,
+      "category": "Cupcake",
+      "quantity": "5 pieces/box",
+      "unit": "boxes"
+    },
+    {
+      "id": 9,
+      "name": "Chocolate Summer Berries",
+      "image": "/assets/Chocolate Summer Berries.jpg",
+      "price": 1200,
+      "category": "Chocolate",
+      "quantity": "per kg",
+      "unit": "Kg's"
+    },
+    {
+      "id": 10,
+      "name": "Classic Cheesecake",
+      "image": "/assets/Classic Cheesecake.jpg",
+      "price": 1200,
+      "category": "Cake",
+      "quantity": "per kg",
+      "unit": "Kg's"
+    },
+    {
+      "id": 11,
+      "name": "Cookies Cream Cake",
+      "image": "/assets/Cookies Cream Cake.jpg",
+      "price": 800,
+      "category": "Cake",
+      "quantity": "per kg",
+      "unit": "Kg's"
+    },
+    {
+      "id": 12,
+      "name": "Easter Cupcakes",
+      "image": "/assets/Easter Cupcakes.jpg",
+      "price": 500,
+      "category": "Cupcake",
+      "quantity": "8 peices/box",
+      "unit": "boxes"
+    },
+    {
+      "id": 13,
+      "name": "Fruit Cake",
+      "image": "/assets/Fruit Cake.jpg",
+      "price": 700,
+      "category": "Cake",
+      "quantity": "per kg",
+      "unit": "Kg's"
+    },
+    {
+      "id": 14,
+      "name": "Isometric chocolate brownies",
+      "image": "/assets/Isometric chocolate brownies.jpg",
+      "price": 300,
+      "category": "Brownie",
+      "quantity": "box contain 4",
+      "unit": "boxes"
+    },
+    {
+      "id": 15,
+      "name": "Monster Theme Cake",
+      "image": "/assets/Monster Theme Cake.jpg",
+      "price": 1500,
+      "category": "Cake",
+      "quantity": "per kg",
+      "unit": "Kg's"
+    },
+    {
+      "id": 16,
+      "name": "Muffin Devil Horns",
+      "image": "/assets/Muffin Devil Horns.jpg",
+      "price": 300,
+      "category": "Cupcake",
+      "quantity": "pack of 6",
+      "unit": "boxes"
+    },
+    {
+      "id": 17,
+      "name": "Muffin Ghost",
+      "image": "/assets/Muffin Ghost.jpg",
+      "price": 500,
+      "category": "Cupcake",
+      "quantity": "pack of 12",
+      "unit": "boxes"
+    },
+    {
+      "id": 18,
+      "name": "Pumpkin Spice Cupcakes",
+      "image": "/assets/Pumpkin Spice Cupcakes.jpg",
+      "price": 500,
+      "category": "Cupcake",
+      "quantity": "pack of 12",
+      "unit": "boxes"
+    }
+  ],
+  "Customers": [
+    {
+      "quantity": 1,
+      "itemName": "Monster Theme Cake",
+      "customerName": "Mani Sai",
+      "address": "Chittagong",
+      "phoneNo": 9080706123,
+      "totalPrice": 1500,
+      "id": 1
+    },
+    {
+      "quantity": 2,
+      "itemName": "Berries Summer Cupcakes",
+      "customerName": "thomus",
+      "address": "somerica",
+      "phoneNo": 7896587458,
+      "totalPrice": 700,
+      "id": 2
+    },
+    {
+      "quantity": 1,
+      "itemName": "Chocolate Blueberries Cake",
+      "customerName": "ramesh",
+      "address": "banglore",
+      "phoneNo": 7889654120,
+      "totalPrice": 1500,
+      "id": 3
+    },
+    {
+      "itemName": "Chocolate Blueberries Cake",
+      "quantity": 2,
+      "customerName": "Mani",
+      "address": "hyd",
+      "phoneNo": 7569653109,
+      "totalPrice": 3000,
+      "id": 4
+    },
+    {
+      "itemName": "Berries Summer Cupcakes",
+      "quantity": 2,
+      "customerName": "patrik",
+      "address": "cheenai",
+      "phoneNo": 1233456889,
+      "totalPrice": 700,
+      "id": 5
+    },
+    {
+      "itemName": "Butter Cookies",
+      "quantity": 2,
+      "customerName": "sfvsvsvsv",
+      "address": "svs",
+      "phoneNo": 6516565,
+      "totalPrice": 500,
+      "id": 6
+    },
+    {
+      "itemName": "Chocolate Cookies",
+      "quantity": 2,
+      "customerName": "Ramu Y",
+      "address": "Sri Laxmi Nagar Road No 19 , TEKULAPALLI , Khammam",
+      "phoneNo": 8522993359,
+      "totalPrice": 800,
+      "id": 7
+    },
+    {
+      "itemName": "Butter Cookies",
+      "totalPrice": null,
+      "id": 8
+    },
+    {
+      "itemName": "Brownies Different Flavor",
+      "totalPrice": null,
+      "id": 9
+    },
+    {
+      "itemName": "Brownies Different Flavor",
+      "quantity": 5,
+      "totalPrice": 1500,
+      "id": 10
+    },
+    {
+      "itemName": "Brownies Different Flavor",
+      "quantity": 1,
+      "customerName": "Ram",
+      "address": "fds sofj",
+      "phoneNo": 9898461161,
+      "totalPrice": 300,
+      "id": 11
+    },
+    {
+      "itemName": "Brownies Different Flavor",
+      "quantity": 2,
+      "customerName": "Y.Ramu",
+      "address": "Sri Laxmi Nagar Road No 19 , TEKULAPALLI , Khammam",
+      "phoneNo": 8522993359,
+      "totalPrice": 600,
+      "id": 12
+    },
+    {
+      "itemName": "Brownies Different Flavor",
+      "quantity": 2,
+      "customerName": "Y.Ramu",
+      "address": "Sri Laxmi Nagar Road No 19 , TEKULAPALLI , Khammam",
+      "phoneNo": 8522993359,
+      "totalPrice": 600,
+      "id": 13
+    },
+    {
+      "itemName": "Brownies Different Flavor",
+      "quantity": 2,
+      "customerName": "Y.Ramu",
+      "address": "Sri Laxmi Nagar Road No 19 , TEKULAPALLI , Khammam",
+      "phoneNo": 8522993359,
+      "totalPrice": 600,
+      "id": 14
+    },
+    {
+      "itemName": "Berries Summer Cupcakes",
+      "quantity": 2,
+      "customerName": "saurabh",
+      "address": "kolkatha",
+      "phoneNo": 890,
+      "totalPrice": 700,
+      "id": 15
+    },
+    {
+      "itemName": "Brownies Different Flavor",
+      "quantity": 3,
+      "customerName": "1234",
+      "address": "Telangana, ",
+      "phoneNo": 8522993359,
+      "totalPrice": 900,
+      "id": 16
+    }
+  ]
 }

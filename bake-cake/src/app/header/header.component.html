@@ -1,1 +1,20 @@
-<h1>Bake my Cake</h1>
+<mat-toolbar id="header">
+  <div id="title-block">
+      <h1>Bake my Cake</h1>
+  </div>
+  <div id="context">
+      <h1>Place to meet your ideas to reality</h1>
+  </div>
+  <div id="navbar" class="custom-icon">
+    <a id="home-link" [routerLink]="['/']">
+      <mat-icon>home</mat-icon>
+    </a>
+    <a id="#" [routerLink]="['/admin']">
+      <mat-icon>account_circle</mat-icon>
+    </a>
+    <a id="log-out"(click)="logout()" [routerLink]="['/']">
+      <mat-icon>logout</mat-icon>
+    </a>
+    </div>
+</mat-toolbar>
+<!-- <div style="background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%); height: 200px;"></div> -->

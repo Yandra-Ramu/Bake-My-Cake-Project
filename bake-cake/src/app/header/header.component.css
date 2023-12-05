@@ -1,0 +1,38 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+
+}
+
+/* Define a CSS rule for an element using Brush Script font */
+#context h1{
+    font-family: 'Brush Script MT', cursive; /* Use 'Brush Script MT' as the primary font, with a generic cursive fallback */
+    font-size: 50px; /* Set your desired font size */
+    /* Additional styling properties can be added as needed */
+
+  }
+
+#home-link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Jazz Let','Fantasy', cursive ;
+}
+  
+#title-block{
+    margin-left: 30px;
+}
+
+.custom-icon{
+    background-color: purple;
+    
+}
+.custom-icon mat-icon{
+    margin: 5px;
+}
+
+mat-icon{
+    color: white;
+}

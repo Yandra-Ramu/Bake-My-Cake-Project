@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --w data.json"
+    "start": "json-server --w cake.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "json": "^11.0.0",
+    "json-server": "^0.17.4",
     "server": "^1.0.38"
   }
 }

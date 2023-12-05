@@ -1,0 +1,96 @@
+
+
+<div class="container">
+
+    
+    <div class="menu">
+        <h2>order-details</h2>
+        <div class="card" >   
+            <img src="{{orderDetail.image}}">
+            <div class="detail">
+                <h3>Ordered Category : {{orderDetail?.category}}</h3>
+                <h4>Item Name : {{orderDetail?.name}}</h4>
+                <p>Cost : &#8377;.{{orderDetail?.price}} {{orderDetail.quantity}}</p>
+            </div>     
+        </div>
+    </div>
+
+    <div class="form">
+        
+        <!-- <form class="example-form">
+
+            <div class="input-field">
+                <label>Select quantity</label>
+                <input type="text" required class="form-text" name="unit" [(ngModel)]="customerDetail.quantity" #quantity="ngModel" placeholder="Enter count">
+                <div class="error-msg" *ngIf="quantity?.errors?.['required']">Name is required.</div>   
+
+            </div>
+
+            <div class="input-field">
+                <label>Total Price</label>
+                <input readonly type="text" class="form-text" name="unit" placeholder="Enter count">
+            </div>
+
+
+            <h1>Customer Details</h1>
+            
+            <div class="input-field">
+                <label>Customer Name</label>
+                <input type="text" required  class="form-text" placeholder="Customer Name" [(ngModel)]="customerDetail.name" #name="ngModel" >
+                <div class="error-msg" *ngIf="submitted && customerDetail.get('name')?.hasError('required')">Name is required.</div>   
+            </div>
+           
+            <div class="input-field">
+            <label>Address</label>
+            <input type="text" required class="form-text" placeholder="Address" [(ngModel)]="customerDetail.address" #address="ngModel" >
+            <div class="error-msg" *ngIf="submitted && customerDetail.get('address')?.hasError('required')">Address is required.</div>
+            </div>
+
+            <div class="input-field">
+            <label>Contact no.</label>
+            <input type="number" required class="form-text" placeholder="Contact no." [(ngModel)]="customerDetail.phoneNo" #phoneNo="ngModel" >
+            <div class="error-msg" *ngIf="submitted && customerDetail.get('phoneNo')?.hasError('required')">Phone no. is required.</div>
+            </div>
+            
+        <button (click)="onSubmit()">Submit</button> 
+         [disabled]="customerDetail.invalid" -->
+        <!-- </form> -->
+
+
+        <form (ngSubmit)="onSubmit(orderForm)" #orderForm="ngForm">
+            <mat-form-field class="input-field">       
+                <input matInput required name="quantity" min="1" [(ngModel)]="customerDetail.quantity" type="number" #unit="ngModel" placeholder="Enter count">
+                <mat-error *ngIf="name.errors?.['required']">Quantity is required</mat-error>
+                <mat-error *ngIf="name.errors?.['min']">Quantity is min</mat-error>
+
+            </mat-form-field>
+
+            <mat-form-field class="input-field"> 
+                <mat-label>Total Bill</mat-label>      
+                <input matInput name="totalBill"  readonly type="number" value="{{orderDetail.price! *customerDetail.quantity! }}" [(ngModel)]="customerDetail.totalPrice">
+                <!-- <mat-error *ngIf="name.errors?.required">Quantity is required</mat-error> -->
+            </mat-form-field>
+
+            <h1>Customers Details</h1>
+            <mat-form-field class="input-field">       
+                <input matInput required name="customerName" milength="3" [(ngModel)]="customerDetail.customerName" type="text" #name="ngModel" placeholder="Customer Name">
+                <mat-error *ngIf="name.errors?.['required']">Customer Name is required</mat-error>
+                <mat-error *ngIf="name.errors?.['minlength']">Customer Name minimum length is {{name.errors?.['minlength']?.requiredLength}}</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="input-field">       
+                <input matInput required name="address" [(ngModel)]="customerDetail.address" type="text" #address="ngModel" placeholder="Customer Address">
+                <mat-error *ngIf="address.errors?.['required']">Address is required</mat-error>
+            </mat-form-field>
+            
+            <mat-form-field class="input-field">       
+                <input matInput required name="phoneNo"  [(ngModel)]="customerDetail.phoneNo" type="number" #phoneNo="ngModel" placeholder="Customer phone No.">
+                <mat-error *ngIf="phoneNo.errors?.['required']">Phone No is required</mat-error>
+            </mat-form-field>
+
+            <button type="submit" [disabled]="!orderForm.valid">Order Now</button>
+
+        </form>
+
+    </div>
+</div>

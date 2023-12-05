@@ -1,0 +1,18 @@
+<div id="search">
+    <mat-form-field appearance="fill">
+    <input matInput type="text" name="searchquery" [(ngModel)]="searchquery" (keyup)="search()" placeholder="Search.." id="searchquery">
+    </mat-form-field>
+    <!-- <button mat-icon-button (click)="search()">
+    <mat-icon id="icon">search</mat-icon>
+    </button> -->
+    <div class="filter">
+        <mat-button-toggle-group (change)="search($event)">
+            <mat-button-toggle value="All">All</mat-button-toggle>
+            <mat-button-toggle value="Cupcake">Cupcake</mat-button-toggle>
+            <mat-button-toggle value="Cake">Cake</mat-button-toggle>
+            <mat-button-toggle value="Brownie">Brownie</mat-button-toggle>
+            <mat-button-toggle value="Chocolate">Chocolate</mat-button-toggle>
+            <mat-button-toggle value="Cookies">Cookies</mat-button-toggle>
+        </mat-button-toggle-group>
+    </div>
+  </div>
